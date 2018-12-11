@@ -15,19 +15,33 @@ About DPMI BITRATE:
 	--> Display graphs of the bitrate traffic in Grafana.
 
  1. SYSTEM REQUIREMENTS:
+ 
 	a. automake
+	
 	b. autoconf
+	
 	c. pkg-config
+	
 	d. build-essential
+	
 	e. libtool
+	
 	f. libpcap-dev
+	
 	g. libmysqlclient-dev
+	
 	h. librrd-dev
+	
 	i. libqd-dev
+	
 	j. pip
+	
 	k. Influxdb 
+	
 	l. Influxdb python module
+	
 	m. Flask python module 
+	
 	n. Grafana
 
  2. INSTALLATION:
@@ -120,7 +134,6 @@ About DPMI BITRATE:
 			influx
 			create database <database name> 
 		You can verify if it is created or not using "show databases"
-	
 	b. In file "bitrate_db.py", Replace the 'db' variable to the influx database name created above, where the bitrate traffic is to be stored.
 	c. In file "bitrate_api.py", Replace the 'interface' variable to the interface on which the bitrate traffic is to be monitored.
 	d. In file "bitrate_api.py", Replace the 'directory' variable to the path where consumer-bitrate is installed.
