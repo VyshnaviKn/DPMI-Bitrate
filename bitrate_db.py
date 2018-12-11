@@ -1,6 +1,6 @@
 from influxdb import InfluxDBClient
 
-db="vivek6"
+db="<databasename>"
 
 global influx
 
