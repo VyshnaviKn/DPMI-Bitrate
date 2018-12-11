@@ -10,11 +10,11 @@ from threading import Thread
 
 dpmi = Flask(__name__)
 
-interface="wlp2s0"
+interface="<interface>"
 
-directory="/home/vivek/consumer-bitrate"
+directory="/home/<rootdirectory>/consumer-bitrate"
 
-password="vivek"
+password="<systempassword>"
 
 global mainstream
 mainstream=[]
