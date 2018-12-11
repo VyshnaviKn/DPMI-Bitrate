@@ -4,7 +4,8 @@ About DPMI BITRATE:
 	--> By using interface and stream name as arguments, DPMI Bitrate calculates the bits per time sample on the interface.
 
  Functionalities of this REST API:
-	--> Authorized access for the API
+ 
+	--> Authorized access for the API.
 	--> Start a stream: Start a stream to monitor the bitrate traffic on the interface.
 	--> Add streams: Add multiple streams to monitor the bitrate traffic on the interface.
 	--> Change to another stream: Change to another stream to monitor the bitrate traffic on the interface.
@@ -113,6 +114,7 @@ About DPMI BITRATE:
 
  ***********************************************************************************
  Note: After all the installations to get the api working on your localhost, do the below changes:
+ 
 	a. After installing all the requirements, create an influxdb database manually using following commands:
 		In terminal,
 			influx
@@ -143,6 +145,7 @@ About DPMI BITRATE:
 
  **********************************************************************************
  Note:	
+ 
 	a. Ensure that you run the "bitrate_api.py" file, before using the service (by curl).
  
 	b. While adding/deleting multiple streams, seperate the streams using ","
